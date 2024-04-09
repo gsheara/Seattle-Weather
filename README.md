@@ -6,3 +6,6 @@ The data used for this project contains two dataframes, one from New York weathe
 New York Data Set Link: https://github.com/gsheara/Seattle-Weather/blob/e34949f8fe3c82e2c1858e380be5d2c517d67f9f/ny_rain.csv
 
 Seattle Data Set Link: https://github.com/gsheara/Seattle-Weather/blob/dbc8bb88f07899c70ba996b695aee64fb078f9e0/seattle_rain.csv
+
+# Data preperation
+From the raw data in the initial CSV files, Python libraries were used to clean the data by correcting data types, dropping unnecessary columns, removing duplicate rows, interpolating missing data, and making both values and metadata more legible. After that the two data frames were combined into one long format and exported as a CSV.
