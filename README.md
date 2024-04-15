@@ -10,4 +10,4 @@ Seattle Data Set Link: https://github.com/gsheara/Seattle-Weather/blob/dbc8bb88f
 # Data preperation
 From the raw data in the initial CSV files, Python libraries were used to clean the data by correcting data types, dropping unnecessary columns, removing duplicate rows, interpolating missing data, and making both values and metadata more legible. After that the two data frames were combined into one long format and exported as a CSV.
 
-Data preparation notebook: https://github.com/gsheara/Seattle-Weather/blob/b86952d5b2522415c24b037ab01246de1b3134da/data_prep.ipynb 
+Data preparation notebook: https://github.com/gsheara/Seattle-Weather/blob/e8a19fdb589991b2aa4c2fddcaba302296a4b04e/GS_Data_Prep.ipynb 
