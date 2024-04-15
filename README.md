@@ -11,3 +11,8 @@ Seattle Data Set Link: https://github.com/gsheara/Seattle-Weather/blob/dbc8bb88f
 From the raw data in the initial CSV files, Python libraries were used to clean the data by correcting data types, dropping unnecessary columns, removing duplicate rows, interpolating missing data, and making both values and metadata more legible. After that the two data frames were combined into one long format and exported as a CSV.
 
 Data preparation notebook: https://github.com/gsheara/Seattle-Weather/blob/e8a19fdb589991b2aa4c2fddcaba302296a4b04e/GS_Data_Prep.ipynb 
+
+# Data analysis
+The cleaned data set was analyzed to compare which city sees the highest quantity of rainfall and which sees the highest number of rainy days. The Altair-vega library for Python was used to build a number of visualizations, and accompanied by empirical statistics as well.
+
+Data analysis notebook:
